@@ -1,16 +1,16 @@
 {
-  "name": "animals",
+  "name": "adjanimals",
   "version": "0.0.3",
-  "description": "Get animals",
+  "description": "Get animals with descriptive adjectives",
   "license": "MIT",
-  "repository": "boennemann/animals",
+  "repository": "hamitron/animals",
   "bin": {
-    "animals": "cli.js"
+    "adjanimals": "cli.js"
   },
   "author": {
-    "name": "Stephan Bönnemann",
-    "email": "stephan@boennemann.me",
-    "url": "http://boennemann.me"
+    "name": "Hamilton Karl",
+    "email": "hqkarl@gmail.com",
+    "url": "http://hamiltonk.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -21,7 +21,8 @@
   "files": [
     "index.js",
     "cli.js",
-    "words.json"
+    "words.json",
+    "adjectives.json"
   ],
   "keywords": [
     "cli",

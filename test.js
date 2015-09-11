@@ -2,7 +2,7 @@
 var test = require('ava');
 var animals = require('./');
 
-test('returns a random animal', function (t) {
+test('returns a random animal and a random adjective', function (t) {
 	t.assert(animals().length > 0);
 });
 

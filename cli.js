@@ -2,7 +2,7 @@
 'use strict';
 var argv = require('minimist')(process.argv.slice(2));
 var pkg = require('./package.json');
-var animals = require('./');
+var adjanimals = require('./');
 
 function help() {
 	console.log([
@@ -10,7 +10,7 @@ function help() {
 		'',
 		'Example',
 		'  $ animals',
-		'  lion'
+		'  cowardly lion'
 	].join('\n'));
 }
 
@@ -24,4 +24,4 @@ if (argv.version) {
 	return;
 }
 
-console.log(animals());
+console.log(adjanimals());
